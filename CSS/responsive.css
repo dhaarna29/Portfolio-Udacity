@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 990px){
+    body, .row, .header, .content, .featured, footer{
+        width: 990px;
+        font-size: 19px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    .intro_img img, .intro{
+        height: 280px;
+    }
+}
+@media screen and (max-width: 989px){
+    .intro_img img, .intro{
+        height: 250px;
+    }
+}
+@media screen and (max-width:767px ){
+    body{
+        font-size: 18px;
+    }
+    .header_logo{
+        display: block;
+        height: 80px;
+        width: 80px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .heading{
+        text-align: center;
+    }
+    }
